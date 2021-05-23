@@ -1,0 +1,203 @@
+/* only small tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner_area {
+        padding: 100px 0px;
+    }
+    .banner_area .banner_text h3, .banner_area .banner_text h2, .consult_area .consult-text h3 {
+        font-size: 25px;
+    }
+    .banner_area .banner-btn, .consult_area .consult-btn {
+        padding-top: 20px;
+    }
+    .banner_area .banner_text h1 {
+        font-size: 50px;
+    }
+    .welcome_tittle h3::before, .welcome_tittle h3::after {
+        left: 100px;
+    }
+    .welcome_tittle h3::after {
+        left: auto;
+        right: 100px;
+    }
+    .welcome_tittle h6 {
+        width: 500px;
+    }
+    .team-members_area .welcome_tittle h3::before, .team-members_area .welcome_tittle h3::after {
+        content: "- - - - - - -";
+        left: 110px;
+    }
+    .team-members_area .welcome_tittle h3::after {
+        left: auto;
+        right: 110px;
+    }
+    .price_area .welcome_tittle h3::before, .price_area .welcome_tittle h3::after, .recent-news_area .welcome_tittle h3::before, .recent-news_area .welcome_tittle h3::after {
+        content: "- - - - - -";
+        left: 150px;
+    }
+    .price_area .welcome_tittle h3::after, .recent-news_area .welcome_tittle h3::after {
+        left: auto;
+        right: 150px;
+    }
+    .offer_area .welcome_tittle h3::before, .offer_area .welcome_tittle h3::after, .testimonial_area .welcome_tittle h3::before, .testimonial_area .welcome_tittle h3::after {
+        content: "- - - - - -";
+        left: 110px;
+    }
+    .offer_area .welcome_tittle h3::after, .testimonial_area .welcome_tittle h3::after {
+        left: auto;
+        right: 110px;
+    }
+    .subscribe_area .welcome_tittle h3::after {
+        content: "- - - - - - - - - - - - ";
+        right: 175px;
+    }
+    .team-members_area .team-members_card .overlay-items .overlay-text h3 {
+        font-size: 18px;
+    }
+    .team-members_area .team-members_card .overlay-items ul {
+        top: 80%;
+    }
+    .team-members_area .team-members_card {
+        height: 292px;
+    }
+}
+
+@media (max-width: 991px) {
+    .btn {
+        padding: 20px 50px;
+    }
+    .counter_area {
+        padding: 100px 0px;
+    }
+    .worl-map_img {
+        margin-bottom: 30px;
+    }
+    .subscribe_area {
+        padding: 100px 0px;
+    }
+    .testimonial_area .review-box-bottom {
+        width: 390px;
+    }
+    .review-box .review-box_item .review-box_title h3 {
+        font-size: 14px;
+    }
+    .review-box .review-box_item .review-box_title h6 {
+        font-size: 13px;
+    }
+    .price_area .price-card {
+        margin-bottom: 30px;
+    }
+    .recent-news_area .recent-news_card {
+        margin-bottom: 30px;
+    }
+    .contact-item {
+        margin-bottom: 30px;
+    }
+    .footer-items {
+        margin-bottom: 30px;
+    }
+    .top-header {
+        padding: 22px 0px;
+    }
+    .header-sticky.sticky-bar {
+        padding: 22px 0px;
+    }
+    .top-header .header .menu-wrapper .header-right {
+        margin-right: 82px;
+    }
+    .banner-slider .slick-dots {
+        position: absolute;
+        top: 85%;
+        left: 40px;
+    }
+    .welcome_area .welcome_card {
+        margin-bottom: 30px;
+    }
+    .offer_area .offer_item {
+        margin-bottom: 30px;
+    }
+    .counter_area .counter-item {
+        margin-bottom: 30px;
+    }
+}
+
+/* mobile or only mobile */
+
+@media (max-width: 767px) {
+    .header-right {
+        display: none;
+    }
+    .side_menu {
+        display: none;
+    }
+    .welcome_tittle h3::before, .welcome_tittle h3::after {
+        display: none;
+    }
+    .banner_area {
+        padding: 75px 0px;
+    }
+    .banner_area .banner_text h3, .banner_area .banner_text h2, .consult_area .consult-text h3 {
+        font-size: 18px;
+    }
+    .welcome_tittle h2 {
+        font-size: 35px;
+    }
+    .welcome_tittle h3 {
+        font-size: 16px;
+    }
+    .welcome_tittle h6 {
+        width: 100%;
+    }
+    .banner_area .banner_text h1 {
+        font-size: 40px;
+    }
+    .video_area {
+        padding-top: 200px;
+    }
+    .gallary_area .gallary-menu {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .gallary_area .gallary-menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .gallary_area .gallary-menu ul li {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .testimonial_area .welcome_tittle h6, .price_area .welcome_tittle h6, .recent-news_area .welcome_tittle h6, .testimonial_area .welcome_tittle h6, .team-members_area .welcome_tittle h6, .world-map_area .welcome_tittle h6 {
+        width: 100%;
+    }
+    .testimonial_area .review-box .review-box_item {
+        padding: 50px;
+    }
+    .testimonial_area .review-box-bottom {
+        width: 230px;
+    }
+    .section_padding {
+        padding: 75px 0px;
+    }
+    .contact_area-top {
+        height: 400px;
+    }
+    .contact_area .map-logo {
+        padding-top: 75px;
+        padding-bottom: 35px;
+    }
+    .form-contact {
+        padding: 30px;
+    }
+    .form-contact .form-group .form-control {
+        height: 45px;
+    }
+    .contact_area {
+        padding-bottom: 75px;
+    }
+    .client-img {
+        margin-bottom: 30px;
+    }
+    .client-part {
+        padding-bottom: 0;
+    }
+}
